@@ -388,7 +388,7 @@
         </div>
     </div>
 					<!-- The Modal -->
-	<div id="id01" class="w3-modal" style="padding-top: 150px;">
+	<div id="popup1" class="w3-modal" style="padding-top: 150px;">
 	<div class="w3-modal-content" style="padding-bottom:47px;">
 	<div class="w3-container" >
 		<span onclick="quitMessageDeLivraison()"
@@ -401,12 +401,12 @@
 <script>
 	function messageDeLivraison () {
 		setTimeout(()=>{
-			document.getElementById('id01').style.display='block'
+			document.getElementById('popup1').style.display='block'
 			document.getElementById('detailPro').style.display='none'
 				},5000)
 	}
 	function quitMessageDeLivraison (){
-		document.getElementById('id01').style.display='none'
+		document.getElementById('popup1').style.display='none'
 		document.getElementById('detailPro').style.display='block'
 	}
 </script>
